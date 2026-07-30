@@ -1,8 +1,23 @@
 aid: maple
-name: Maple
-description: 'Maple is a company surfaced as a portfolio company of foundry-group and added to the API
-  Evangelist network as a stub for enrichment. Sector: venture-capital. This profile is a lead awaiting
-  the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maple.png
+name: Maple VC
+description: 'Maple VC is an early-stage ("believing first") venture capital firm that writes first checks
+  into founders at the seed stage, before their companies achieve mainstream recognition. The firm invests
+  globally across four operator communities — San Francisco, Canada, Cambridge, and Korea — and is run by
+  operators drawn from early teams at Uber, DigitalOcean, and Shopify. Notable portfolio companies include
+  Clay, Neo Financial, AutoLeap, Playbook, BenchIQ, Finny, and Blacklake. Maple VC is a venture capital firm
+  and does not operate a developer platform, public API, or API documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/maple/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +25,22 @@ x-backed-by:
 - foundry-group
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Venture Capital
+- Seed Stage
+- Early Stage
+- Investor
+- Startups
+- Venture Funding
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,19 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/maple-domain-security.yml
 - type: Website
   url: https://www.maplevc.com
+- type: Blog
+  url: https://www.maplevc.com/blog
+- type: Portfolio
+  url: https://www.maplevc.com/portfolio
+- type: Team
+  url: https://www.maplevc.com/team
+- type: Contact
+  url: https://www.maplevc.com/contact
+- type: LinkedIn
+  url: https://linkedin.com/company/maple-vc
+- type: Twitter
+  url: https://x.com/MapleVCFund
